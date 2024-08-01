@@ -1,0 +1,5 @@
+package com.springrest.restapi.services;
+
+public interface CourseService {
+
+}

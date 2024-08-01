@@ -1,0 +1,5 @@
+package com.springrest.restapi.controller;
+
+public class MyController {
+
+}

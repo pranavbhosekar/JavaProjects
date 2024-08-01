@@ -1,0 +1,17 @@
+package com.springrest.restapi.services;
+
+import java.util.List;
+
+import org.springframework.boot.autoconfigure.cache.CouchbaseCacheManagerBuilderCustomizer;
+
+import com.springrest.restapi.entities.Course;
+
+public class CourseServiceImpl implements CourseService, CouchbaseCacheManagerBuilderCustomizer {
+
+	@Override
+	public List<Course> getCourses() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
